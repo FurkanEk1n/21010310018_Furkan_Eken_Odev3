@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_21010310018_Furkan_Eken_Odev2.DovizKurlari"
+             Title="DövizKurlari">
+
+    <StackLayout Padding="10">
+        <Label Text="Dolar(USD)" FontSize="20" />
+        <Label x:Name="UsdAlisLabel" />
+        <Label x:Name="UsdSatisLabel" />
+        <Label x:Name="UsdDegisimLabel" />
+
+        <Label Text="Euro(EUR)" FontSize="20" />
+        <Label x:Name="EurAlisLabel" />
+        <Label x:Name="EurSatisLabel" />
+        <Label x:Name="EurDegisimLabel" />
+
+        <Label Text="Sterlin(GBP)" FontSize="20" />
+        <Label x:Name="GbpAlisLabel" />
+        <Label x:Name="GbpSatisLabel" />
+        <Label x:Name="GbpDegisimLabel" />
+    </StackLayout>
+</ContentPage>

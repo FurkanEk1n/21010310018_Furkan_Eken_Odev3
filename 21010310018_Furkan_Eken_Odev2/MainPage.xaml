@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_21010310018_Furkan_Eken_Odev2.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontFamily" Value="serif"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label Text="Ödev-3" TextColor="#64CCC5"/>
+
+            <Image
+                Source="resim.jpg"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            <Label Text="Furkan EKEN" TextColor="#64CCC5"/>
+            <Label Text="Bartın Üniversitesi Bilgisayar Mühendisliği" TextColor="#64CCC5" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
